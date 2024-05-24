@@ -1,4 +1,6 @@
-# Code on Android
+![cover](cover.png)
+
+# <h1 align="center">CODE ON ANDROID</h1>
 
 This repository provides information and guides on the best ways and tools to code on Android. It covers both online and offline editors, including their features and setup instructions.
 
