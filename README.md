@@ -9,7 +9,7 @@ This repository provides information and guides on the best ways and tools to co
     - [IDEX](#idex)
     - [Repl.it](#repl-it)
 2. [Offline Editors](#offline-editors)
-    - [VS Code](#vs-code)
+    - [VS Code (VS Code Server)](#vs-code-(vs-code-server))
     - [Neovim](#neovim)
     - [Acode](#acode)
 3. [Supporting Languages](#supporting-languages)
@@ -43,34 +43,35 @@ Repl.it is another versatile online editor that supports collaborative coding an
 
 ## Offline Editors
 
-### VS Code
-VS Code is a popular code editor with extensive extensions and customization options.
+### VS Code ( VS Code Server )
 
-- **Features:**
-  - IntelliSense
-  - Debugging
-  - Built-in Git
-  - Extensions marketplace
+VS Code is a popular code editor renowned for its extensive extensions and customization options.
 
-#### Installation Guide:
-1. Install [Termux](https://play.google.com/store/apps/details?id=com.termux) from the Play Store.
-2. Update and upgrade packages:
-    ```sh
-    pkg update && pkg upgrade
+### Pre-Requirements:
+Ensure you have the following before proceeding:
+- Latest Chrome browser
+- Termux
+- (Optional) Hackers Keyboard (best keyboard for efficient work)
+- (Optional) External keyboard and mouse
+- (Optional) Use tablet or external monitor or desktop modes on some phones like Samsung DeX, etc.
+
+### Installation Guide:
+1. Get Termux from F-Droid.
+2. Run:
+   ```sh
+    pkg install tur-repo
     ```
-3. Install Node.js:
-    ```sh
-    pkg install nodejs
-    ```
-4. Install Code Server:
-    ```sh
-    npm install -g code-server
-    ```
-5. Start Code Server:
-    ```sh
-    code-server
-    ```
-6. Access VS Code in your browser using the provided local URL.
+4. Run:
+   ```sh
+   pkg install code-server
+   ```
+6. Start Code Server by simply running:
+   ```sh
+   code-server
+   ```
+8. Access VS Code in your Chrome browser using the provided local URL.
+
+Enjoy coding with VS Code's powerful features and enhanced browsing experience, optimized for keyboard interactivity.
 
 ### Neovim
 Neovim is a highly configurable text editor, ideal for power users.
