@@ -101,3 +101,8 @@ Acode is a lightweight code editor for Android with support for various language
 Install Java Development Kit (JDK) on Termux:
 ```sh
 pkg install openjdk-17
+
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get started.
